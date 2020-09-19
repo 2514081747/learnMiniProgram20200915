@@ -1,0 +1,11 @@
+<!--pages/profile/profile.wxml-->
+<!-- 1.个人中心头部 -->
+<view class='profile'>
+  <w-header/>
+  <!-- 2.个人中心中部 -->
+  <w-info/>
+  <!-- 3.列表信息 -->
+  <w-list-view infos="{{orderList}}"/>
+  <w-list-view infos="{{serviceList}}"/>
+</view>
+

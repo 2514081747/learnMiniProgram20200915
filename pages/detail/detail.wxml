@@ -1,0 +1,17 @@
+<!--pages/detail/detail.wxml-->
+<!-- 1.展示详情页轮播图 -->
+<w-swiper class="d-swiper" list="{{topImages}}" />
+<!-- 2.展示商品详情信息 -->
+<w-base-info baseInfo="{{baseInfo}}"/>
+<!-- 3.展示商店信息 -->
+<w-shop-info shopInfo="{{shopInfo}}"/>
+<!-- 4.展示商品细节信息 -->
+<w-detail-info detailInfo="{{detailInfo}}"/>
+<!-- 5.展示商品尺寸信息 -->
+<w-param-info paramInfo="{{paramInfo}}"/>
+<!-- 6.展示商品【评论信息 -->
+<w-commend-info commentInfo="{{commentInfo}}"/>
+<!-- 7.展示商品推荐信息 -->
+<w-recommend-info recommends="{{recommends}}"/>
+<!-- 8.展示底部导航栏 添加购物车 -->
+<w-bottom-bar/>
